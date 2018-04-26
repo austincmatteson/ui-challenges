@@ -1,0 +1,64 @@
+#vator {
+  height: 500px;
+  width: 355px;
+  background: #D4D4D4;
+  border: 5px solid;
+  border-radius: 3px;
+}
+
+#screen {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 200px;
+  width: 300px;
+  background: black;
+}
+
+#floor {
+  color: white;
+  position: fixed;
+  font-size: 250px;
+  margin-top: -45px;
+  margin-left: 70px;
+}
+
+#up {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  background: #7FBB56;
+  display: none;
+}
+
+#down {
+  float: right;
+  margin-top: 140px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  background: #EA3323;
+  display: none;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 5px solid;
+  font-size: 30px;
+}
+
+button:hover {
+    background: gray;
+ }
+
+#top, #bottom {
+  margin-left: 25px;
+  margin-top: 25px
+}
+
+#four, #two {
+  margin-left: 100px;
+}
